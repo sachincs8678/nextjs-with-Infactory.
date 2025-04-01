@@ -35,7 +35,6 @@ Fetches factual answers from Infactory’s Unified Endpoint API.
 
 Provides accurate responses based on a single data source (NYC Taxi Rides.csv).
 
-Includes a working demo showcasing the chatbot in action.
 
 Setup Instructions
 
