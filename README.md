@@ -52,8 +52,8 @@ Installation
 
 Clone the Repository:
 
-git clone https://github.com/your-repo/nextjs-ai-chatbot-infactory.git
-cd nextjs-ai-chatbot-infactory
+[git clone (https://github.com/sachincs8678/nextjs-with-Infactory..git)]
+
 
 Install Dependencies:
 
@@ -82,11 +82,20 @@ Infactory API Integration: When a relevant question is detected, the chatbot mak
 
 Sample Questions
 
-Try asking the chatbot the following questions:
+"Identify the busiest hour of the day in terms of the number of rides initiated."
 
-"What was the average fare for NYC taxi rides in January 2023?"
+"What is the average trip distance for rides with and without tolls, and how do their total fares compare?"
 
-"How many taxi rides were recorded on March 15, 2023?"
+"What is the distribution of trip distances for rides with different passenger counts?"
 
-"What is the longest recorded taxi ride in the dataset?"
+"What is the correlation between base fare and total fare for rides with tips given?"
+
+"Which payment type, cash or credit, is more commonly used for trips longer than 10 miles?"
+
+"What is the average total fare for rides that have a trip duration of more than 30 minutes?"
+
+"What are the top five most common trip distances and their average fares?"
+
+"What is the average tip percentage for rides paid with cash versus credit?"
+
 
