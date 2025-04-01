@@ -15,6 +15,7 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<img width="1792" alt="Screenshot 2025-04-01 at 9 32 17 AM" src="https://github.com/user-attachments/assets/4206abc9-1550-40c0-b060-016c2cd43ed5" />
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
