@@ -21,17 +21,73 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+Next.js AI Chatbot with Infactory API Integration
 
-To learn more about Next.js, take a look at the following resources:
+Objective
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project integrates the Next.js AI Chatbot Template with Infactory’s Unified Endpoint API to enable the chatbot to answer questions specifically related to the NYC Taxi Rides dataset.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Features
 
-## Deploy on Vercel
+Uses OpenAI function calling to detect NYC Taxi Rides dataset-related queries.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Fetches factual answers from Infactory’s Unified Endpoint API.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Provides accurate responses based on a single data source (NYC Taxi Rides.csv).
+
+Includes a working demo showcasing the chatbot in action.
+
+Setup Instructions
+
+Prerequisites
+
+Node.js installed
+
+OpenAI API key
+
+Infactory API credentials
+
+GitHub account (for forking the template)
+
+Installation
+
+Clone the Repository:
+
+git clone https://github.com/your-repo/nextjs-ai-chatbot-infactory.git
+cd nextjs-ai-chatbot-infactory
+
+Install Dependencies:
+
+npm install
+
+Set Up Environment Variables:
+Create a .env.local file in the root directory and add the following:
+
+OPENAI_API_KEY=your_openai_api_key
+INFACTORY_API_KEY=your_infactory_api_key
+NEXT_PUBLIC_API_URL=https://api.infactory.ai
+
+Run the Development Server:
+
+npm run dev
+
+The chatbot should be accessible at http://localhost:3000.
+
+Integration Details
+
+OpenAI Function Calling: Implemented to detect queries related to NYC Taxi Rides.
+
+Infactory API Integration: When a relevant question is detected, the chatbot makes an API call to Infactory’s Unified Endpoint to retrieve data.
+
+
+
+Sample Questions
+
+Try asking the chatbot the following questions:
+
+"What was the average fare for NYC taxi rides in January 2023?"
+
+"How many taxi rides were recorded on March 15, 2023?"
+
+"What is the longest recorded taxi ride in the dataset?"
+
